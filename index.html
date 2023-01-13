@@ -19,37 +19,49 @@
     class="font-josefin h-screen flex flex-col items-center justify-between"
   >
     <main>
-      <section class="header">
-        <img src="./images/logo.svg" alt="" class="header__image" />
+      <section class="header h-[84px] flex items-center">
+        <img src="./images/logo.svg" alt="" class="header__image ml-8" />
       </section>
       <section
         class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat"
       ></section>
-      <section class="info text-center">
+      <section class="info text-center mt-16 mb-10">
         <h1
-          class="info__title font-semibold text-5xl text-dark-grayish-red uppercase break-words"
+          class="info__title mb-7 font-semibold text-5xl text-dark-grayish-red uppercase break-words tracking-widest"
         >
           <span class="font-light text-desaturated-red">We're</span>
           coming soon
         </h1>
-        <p class="info__description text-base text-desaturated-red">
+        <p
+          class="info__description text-base text-desaturated-red font-regular"
+        >
           We're coming soon Hello fellow shoppers! We're currently building our
           new fashion store. Add your email below to stay up-to-date with
           announcements and our launch deals
         </p>
       </section>
       <section class="form flex items-center justify-center">
-        <input type="email" name="" id="" placeholder="Email Address" />
+        <input
+          type="email"
+          placeholder="Email Address"
+          class="form__input w-[310px] h-[46px] border-2 border-pink-500 rounded-full"
+        />
         <button>></button>
       </section>
     </main>
     <footer class="text-center">
-      <p class="attribution">
+      <p class="attribution text-dark-grayish-red">
         Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        <a
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          class="text-soft-red"
           >Frontend Mentor</a
         >. Coded by
-        <a href="https://www.frontendmentor.io/profile/nicolasfig">Nicolas F</a
+        <a
+          href="https://www.frontendmentor.io/profile/nicolasfig"
+          class="text-soft-red"
+          >Nicolas F</a
         >.
       </p>
     </footer>
