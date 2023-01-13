@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap");
+
 /*
 ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
 */
@@ -419,7 +421,7 @@ video {
   display: none;
 }
 
-*, ::before, ::after {
+*, ::before, ::after{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -466,7 +468,7 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-::backdrop {
+::backdrop{
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
   --tw-translate-x: 0;
@@ -513,92 +515,86 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.flex {
+.flex{
   display: flex;
 }
 
-.h-screen {
+.h-screen{
   height: 100vh;
 }
 
-.h-\[250px\] {
+.h-\[250px\]{
   height: 250px;
 }
 
-.w-\[375px\] {
+.w-\[375px\]{
   width: 375px;
 }
 
-.flex-col {
+.flex-col{
   flex-direction: column;
 }
 
-.items-center {
+.items-center{
   align-items: center;
 }
 
-.justify-center {
+.justify-center{
   justify-content: center;
 }
 
-.justify-between {
+.justify-between{
   justify-content: space-between;
 }
 
-.bg-hero-mobile {
+.break-words{
+  overflow-wrap: break-word;
+}
+
+.bg-hero-mobile{
   background-image: url(./images/hero-mobile.jpg);
 }
 
-.bg-no-repeat {
+.bg-no-repeat{
   background-repeat: no-repeat;
 }
 
-.text-center {
+.text-center{
   text-align: center;
 }
 
-.font-josefin {
-  font-family: Josefin Sans, sans-serif;
+.font-josefin{
+  font-family: "Josefin Sans", sans-serif;
 }
 
-.text-base {
-  font-size: 1rem;
-  line-height: 1.5rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
-.text-8xl {
-  font-size: 6rem;
-  line-height: 1;
-}
-
-.text-5xl {
+.text-5xl{
   font-size: 3rem;
   line-height: 1;
 }
 
-.font-semibold {
+.text-base{
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-semibold{
   font-weight: 600;
 }
 
-.font-light {
+.font-light{
   font-weight: 300;
 }
 
-.uppercase {
+.uppercase{
   text-transform: uppercase;
 }
 
-.text-desaturated-red {
-  --tw-text-opacity: 1;
-  color: hsl(0 36% 70% / var(--tw-text-opacity));
-}
-
-.text-dark-grayish-red {
+.text-dark-grayish-red{
   --tw-text-opacity: 1;
   color: hsl(0 6% 24% / var(--tw-text-opacity));
+}
+
+.text-desaturated-red{
+  --tw-text-opacity: 1;
+  color: hsl(0 36% 70% / var(--tw-text-opacity));
 }

@@ -6,7 +6,7 @@ module.exports = {
       desktop: "765px",
     },
     fontFamily: {
-      josefin: ["Josefin Sans", "sans-serif"],
+      josefin: ['"Josefin Sans"', "sans-serif"],
     },
     fontWeight: {
       light: 300,
