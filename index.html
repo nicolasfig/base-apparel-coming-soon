@@ -16,16 +16,16 @@
     <link rel="stylesheet" href="output.css" />
   </head>
   <body
-    class="font-josefin h-screen flex flex-col items-center justify-between"
+    class="font-josefin w-screen h-screen flex flex-col items-center justify-between"
   >
     <main class="mb-20">
       <section class="header h-[84px] flex items-center">
         <img src="./images/logo.svg" alt="" class="header__image ml-8" />
       </section>
-      <section
-        class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat"
-      ></section>
-      <div class="text-section flex flex-col items-center">
+      <div class="center-items flex flex-col items-center">
+        <section
+          class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat"
+        ></section>
         <section class="info w-[310px] text-center mt-16 mb-10">
           <h1
             class="info__title mb-7 font-semibold text-5xl text-dark-grayish-red uppercase break-words tracking-widest"
@@ -41,25 +41,25 @@
             and our launch deals
           </p>
         </section>
+        <section class="form flex">
+          <div
+            class="input__border flex items-center border border-dark-grayish-red w-[312px] h-12 rounded-full"
+          >
+            <input
+              type="email"
+              placeholder="Email Address"
+              class="form__input w-[310px] h-12 border-0 rounded-full box-border ml-[-1px] pt-4 pr-6 pb-4 pl-6 placeholder:text-desaturated-red"
+            />
+          </div>
+          <div
+            class="form__button flex items-center justify-center w-16 h-12 border-0 rounded-full ml-[-63px] hover:ml-[-32px] hover:drop-shadow-2xl"
+          >
+            <img src="./images/icon-arrow.svg" alt="" />
+          </div>
+        </section>
       </div>
-      <section class="form flex items-center justify-center">
-        <div
-          class="input__border flex items-center border border-dark-grayish-red w-[312px] h-12 rounded-full"
-        >
-          <input
-            type="email"
-            placeholder="Email Address"
-            class="form__input w-[310px] h-12 border-0 rounded-full box-border ml-[-1px] pt-4 pr-6 pb-4 pl-6 placeholder:text-desaturated-red"
-          />
-        </div>
-        <div
-          class="form__button flex items-center justify-center w-16 h-12 border-0 rounded-full ml-[-63px]"
-        >
-          <img src="./images/icon-arrow.svg" alt="" />
-        </div>
-      </section>
     </main>
-    <footer class="text-center w-[310px]">
+    <footer class="text-center">
       <p class="attribution text-dark-grayish-red">
         Challenge by
         <a
