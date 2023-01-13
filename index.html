@@ -18,35 +18,41 @@
   <body
     class="font-josefin h-screen flex flex-col items-center justify-between"
   >
-    <main>
+    <main class="mb-20">
       <section class="header h-[84px] flex items-center">
         <img src="./images/logo.svg" alt="" class="header__image ml-8" />
       </section>
       <section
         class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat"
       ></section>
-      <section class="info text-center mt-16 mb-10">
-        <h1
-          class="info__title mb-7 font-semibold text-5xl text-dark-grayish-red uppercase break-words tracking-widest"
-        >
-          <span class="font-light text-desaturated-red">We're</span>
-          coming soon
-        </h1>
-        <p
-          class="info__description text-base text-desaturated-red font-regular"
-        >
-          We're coming soon Hello fellow shoppers! We're currently building our
-          new fashion store. Add your email below to stay up-to-date with
-          announcements and our launch deals
-        </p>
-      </section>
+      <div class="text-section flex flex-col items-center">
+        <section class="info w-[310px] text-center mt-16 mb-10">
+          <h1
+            class="info__title mb-7 font-semibold text-5xl text-dark-grayish-red uppercase break-words tracking-widest"
+          >
+            <span class="font-light text-desaturated-red">We're</span>
+            coming soon
+          </h1>
+          <p
+            class="info__description text-base text-desaturated-red font-regular"
+          >
+            We're coming soon Hello fellow shoppers! We're currently building
+            our new fashion store. Add your email below to stay up-to-date with
+            announcements and our launch deals
+          </p>
+        </section>
+      </div>
       <section class="form flex items-center justify-center">
-        <input
-          type="email"
-          placeholder="Email Address"
-          class="form__input w-[310px] h-[46px] border-2 border-pink-500 rounded-full"
-        />
-        <button>></button>
+        <div
+          class="input__border flex items-center border border-desaturated-red w-[312] h-11 rounded-full"
+        >
+          <input
+            type="email"
+            placeholder="Email Address"
+            class="form__input w-[248px] h-11 rounded-full box-border pt-4 pr-6 pb-4 pl-6"
+          />
+          <button class="form__button w-16 h-11 rounded-full"></button>
+        </div>
       </section>
     </main>
     <footer class="text-center">
