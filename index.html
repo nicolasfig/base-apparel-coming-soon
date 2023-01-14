@@ -18,17 +18,29 @@
   <body
     class="font-josefin w-screen h-screen flex flex-col items-center justify-between"
   >
-    <main class="mb-20">
-      <section class="header h-[84px] flex items-center">
-        <img src="./images/logo.svg" alt="" class="header__image ml-8" />
-      </section>
-      <div class="center-items flex flex-col items-center desktop:flex-row">
+    <main
+      class="flex flex-col items-center desktop:flex-row mb-20 desktop:w-full"
+    >
+      <section
+        class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat -order-1 desktop:order-1 desktop:bg-hero-desktop desktop:w-[610px] desktop:h-[800px]"
+      ></section>
+      <div
+        class="desktop-block desktop:w-[830px] desktop:h-screen desktop:flex desktop:flex-col desktop:items-center desktop:justify-evenly"
+      >
         <section
-          class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat desktop:bg-hero-desktop desktop:w-[610px] desktop:h-[800px]"
-        ></section>
-        <section class="info w-[310px] text-center mt-16 mb-10">
+          class="header h-[84px] flex items-center justify-items-start -order-2 desktop:w-[445px]"
+        >
+          <img
+            src="./images/logo.svg"
+            alt=""
+            class="header__image ml-8 desktop:ml-0"
+          />
+        </section>
+        <section
+          class="info w-[310px] text-center mt-16 desktop:mt-0 mb-10 desktop:w-[445px] desktop:text-left"
+        >
           <h1
-            class="info__title mb-7 font-semibold text-5xl text-dark-grayish-red uppercase break-words tracking-widest"
+            class="info__title mb-7 font-semibold text-5xl desktop:text-7xl text-dark-grayish-red uppercase break-words tracking-widest"
           >
             <span class="font-light text-desaturated-red">We're</span>
             coming soon
@@ -41,14 +53,14 @@
             and our launch deals
           </p>
         </section>
-        <section class="form flex">
+        <section class="form flex desktop:-mt-[84px]">
           <div
-            class="input__border flex items-center border border-dark-grayish-red w-[312px] h-12 rounded-full"
+            class="input__border flex items-center border border-dark-grayish-red w-[312px] h-12 rounded-full desktop:w-[445px]"
           >
             <input
               type="email"
               placeholder="Email Address"
-              class="form__input w-[310px] h-12 border-0 rounded-full box-border ml-[-1px] pt-4 pr-6 pb-4 pl-6 placeholder:text-desaturated-red"
+              class="form__input w-[310px] desktop:w-[445px] h-12 border-0 rounded-full box-border ml-[-1px] pt-4 pr-6 pb-4 pl-6 placeholder:text-desaturated-red"
             />
           </div>
           <div
@@ -59,7 +71,7 @@
         </section>
       </div>
     </main>
-    <footer class="text-center">
+    <footer class="text-center desktop:hidden">
       <p class="attribution text-dark-grayish-red">
         Challenge by
         <a

@@ -515,6 +515,26 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.order-1{
+  order: 1;
+}
+
+.order-2{
+  order: 2;
+}
+
+.order-3{
+  order: 3;
+}
+
+.-order-1{
+  order: -1;
+}
+
+.-order-2{
+  order: -2;
+}
+
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -587,8 +607,20 @@ video {
   width: 4rem;
 }
 
+.w-full{
+  width: 100%;
+}
+
+.w-auto{
+  width: auto;
+}
+
 .flex-col{
   flex-direction: column;
+}
+
+.items-start{
+  align-items: flex-start;
 }
 
 .items-center{
@@ -601,6 +633,10 @@ video {
 
 .justify-between{
   justify-content: space-between;
+}
+
+.justify-items-start{
+  justify-items: start;
 }
 
 .break-words{
@@ -720,12 +756,84 @@ video {
 }
 
 @media (min-width: 765px){
+  .desktop\:order-last{
+    order: 9999;
+  }
+
+  .desktop\:order-1{
+    order: 1;
+  }
+
+  .desktop\:ml-0{
+    margin-left: 0px;
+  }
+
+  .desktop\:-mt-10{
+    margin-top: -2.5rem;
+  }
+
+  .desktop\:-mt-20{
+    margin-top: -5rem;
+  }
+
+  .desktop\:-mt-\[64\]{
+    margin-top: -64;
+  }
+
+  .desktop\:-mt-\[64px\]{
+    margin-top: -64px;
+  }
+
+  .desktop\:-mt-\[84px\]{
+    margin-top: -84px;
+  }
+
+  .desktop\:mt-0{
+    margin-top: 0px;
+  }
+
+  .desktop\:flex{
+    display: flex;
+  }
+
+  .desktop\:hidden{
+    display: none;
+  }
+
   .desktop\:h-\[800px\]{
     height: 800px;
   }
 
+  .desktop\:h-screen{
+    height: 100vh;
+  }
+
   .desktop\:w-\[610px\]{
     width: 610px;
+  }
+
+  .desktop\:w-1\/2{
+    width: 50%;
+  }
+
+  .desktop\:w-full{
+    width: 100%;
+  }
+
+  .desktop\:w-auto{
+    width: auto;
+  }
+
+  .desktop\:w-\[830px\]{
+    width: 830px;
+  }
+
+  .desktop\:w-\[445px\]{
+    width: 445px;
+  }
+
+  .desktop\:flex-none{
+    flex: none;
   }
 
   .desktop\:flex-row{
@@ -736,7 +844,41 @@ video {
     flex-direction: row-reverse;
   }
 
+  .desktop\:flex-col{
+    flex-direction: column;
+  }
+
+  .desktop\:items-center{
+    align-items: center;
+  }
+
+  .desktop\:justify-center{
+    justify-content: center;
+  }
+
+  .desktop\:justify-between{
+    justify-content: space-between;
+  }
+
+  .desktop\:justify-evenly{
+    justify-content: space-evenly;
+  }
+
   .desktop\:bg-hero-desktop{
     background-image: url(./images/hero-desktop.jpg);
+  }
+
+  .desktop\:text-left{
+    text-align: left;
+  }
+
+  .desktop\:text-8xl{
+    font-size: 6rem;
+    line-height: 1;
+  }
+
+  .desktop\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
   }
 }
