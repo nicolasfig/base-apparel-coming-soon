@@ -587,6 +587,22 @@ video {
   height: 3rem;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
+.h-11{
+  height: 2.75rem;
+}
+
+.h-\[42px\]{
+  height: 42px;
+}
+
+.h-\[43px\]{
+  height: 43px;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -759,6 +775,10 @@ video {
   color: hsl(0 36% 70% / var(--tw-text-opacity));
 }
 
+.focus\:border-0:focus{
+  border-width: 0px;
+}
+
 @media (min-width: 765px){
   .desktop\:order-last{
     order: 9999;
@@ -794,6 +814,10 @@ video {
 
   .desktop\:mt-0{
     margin-top: 0px;
+  }
+
+  .desktop\:-mt-\[100px\]{
+    margin-top: -100px;
   }
 
   .desktop\:flex{
