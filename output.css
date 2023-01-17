@@ -515,18 +515,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.order-1{
-  order: 1;
-}
-
-.order-2{
-  order: 2;
-}
-
-.order-3{
-  order: 3;
-}
-
 .-order-1{
   order: -1;
 }
@@ -575,32 +563,20 @@ video {
   height: 100vh;
 }
 
-.h-\[84px\]{
-  height: 84px;
-}
-
 .h-\[250px\]{
   height: 250px;
+}
+
+.h-\[84px\]{
+  height: 84px;
 }
 
 .h-12{
   height: 3rem;
 }
 
-.h-10{
-  height: 2.5rem;
-}
-
 .h-11{
   height: 2.75rem;
-}
-
-.h-\[42px\]{
-  height: 42px;
-}
-
-.h-\[43px\]{
-  height: 43px;
 }
 
 .w-screen{
@@ -623,20 +599,8 @@ video {
   width: 4rem;
 }
 
-.w-full{
-  width: 100%;
-}
-
-.w-auto{
-  width: auto;
-}
-
 .flex-col{
   flex-direction: column;
-}
-
-.items-start{
-  align-items: flex-start;
 }
 
 .items-center{
@@ -775,41 +739,13 @@ video {
   color: hsl(0 36% 70% / var(--tw-text-opacity));
 }
 
-.focus\:border-0:focus{
-  border-width: 0px;
-}
-
 @media (min-width: 765px){
-  .desktop\:order-last{
-    order: 9999;
-  }
-
   .desktop\:order-1{
     order: 1;
   }
 
   .desktop\:ml-0{
     margin-left: 0px;
-  }
-
-  .desktop\:-mt-10{
-    margin-top: -2.5rem;
-  }
-
-  .desktop\:-mt-20{
-    margin-top: -5rem;
-  }
-
-  .desktop\:-mt-\[64\]{
-    margin-top: -64;
-  }
-
-  .desktop\:-mt-\[64px\]{
-    margin-top: -64px;
-  }
-
-  .desktop\:-mt-\[84px\]{
-    margin-top: -84px;
   }
 
   .desktop\:mt-0{
@@ -836,20 +772,12 @@ video {
     height: 100vh;
   }
 
-  .desktop\:w-\[610px\]{
-    width: 610px;
-  }
-
-  .desktop\:w-1\/2{
-    width: 50%;
-  }
-
   .desktop\:w-full{
     width: 100%;
   }
 
-  .desktop\:w-auto{
-    width: auto;
+  .desktop\:w-\[610px\]{
+    width: 610px;
   }
 
   .desktop\:w-\[830px\]{
@@ -860,16 +788,8 @@ video {
     width: 445px;
   }
 
-  .desktop\:flex-none{
-    flex: none;
-  }
-
   .desktop\:flex-row{
     flex-direction: row;
-  }
-
-  .desktop\:flex-row-reverse{
-    flex-direction: row-reverse;
   }
 
   .desktop\:flex-col{
@@ -878,14 +798,6 @@ video {
 
   .desktop\:items-center{
     align-items: center;
-  }
-
-  .desktop\:justify-center{
-    justify-content: center;
-  }
-
-  .desktop\:justify-between{
-    justify-content: space-between;
   }
 
   .desktop\:justify-evenly{
@@ -898,11 +810,6 @@ video {
 
   .desktop\:text-left{
     text-align: left;
-  }
-
-  .desktop\:text-8xl{
-    font-size: 6rem;
-    line-height: 1;
   }
 
   .desktop\:text-7xl{
