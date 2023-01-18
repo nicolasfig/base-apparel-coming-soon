@@ -575,10 +575,6 @@ video {
   height: 3rem;
 }
 
-.h-11{
-  height: 2.75rem;
-}
-
 .w-screen{
   width: 100vw;
 }
@@ -589,10 +585,6 @@ video {
 
 .w-\[310px\]{
   width: 310px;
-}
-
-.w-\[312px\]{
-  width: 312px;
 }
 
 .w-16{
@@ -633,10 +625,6 @@ video {
 
 .border-0{
   border-width: 0px;
-}
-
-.border-2{
-  border-width: 2px;
 }
 
 .border-dark-grayish-red{
