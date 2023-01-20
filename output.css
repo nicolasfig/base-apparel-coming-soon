@@ -551,6 +551,10 @@ video {
   margin-left: -63px;
 }
 
+.ml-\[-64px\]{
+  margin-left: -64px;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -630,6 +634,11 @@ video {
 .border-dark-grayish-red{
   --tw-border-opacity: 1;
   border-color: hsl(0 6% 24% / var(--tw-border-opacity));
+}
+
+.border-desaturated-red{
+  --tw-border-opacity: 1;
+  border-color: hsl(0 36% 70% / var(--tw-border-opacity));
 }
 
 .bg-hero-mobile{
