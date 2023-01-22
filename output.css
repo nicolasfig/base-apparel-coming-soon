@@ -547,10 +547,6 @@ video {
   margin-left: -1px;
 }
 
-.ml-\[-63px\]{
-  margin-left: -63px;
-}
-
 .ml-\[-64px\]{
   margin-left: -64px;
 }
@@ -629,11 +625,6 @@ video {
 
 .border-0{
   border-width: 0px;
-}
-
-.border-dark-grayish-red{
-  --tw-border-opacity: 1;
-  border-color: hsl(0 6% 24% / var(--tw-border-opacity));
 }
 
 .border-desaturated-red{
