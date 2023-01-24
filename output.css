@@ -551,6 +551,14 @@ video {
   margin-left: -64px;
 }
 
+.-mt-\[124px\]{
+  margin-top: -124px;
+}
+
+.ml-4{
+  margin-left: 1rem;
+}
+
 .box-border{
   box-sizing: border-box;
 }
@@ -593,6 +601,10 @@ video {
 
 .w-16{
   width: 4rem;
+}
+
+.w-\[445px\]{
+  width: 445px;
 }
 
 .flex-col{
@@ -660,6 +672,14 @@ video {
   padding-left: 1.5rem;
 }
 
+.pl-4{
+  padding-left: 1rem;
+}
+
+.text-left{
+  text-align: left;
+}
+
 .text-center{
   text-align: center;
 }
@@ -708,14 +728,14 @@ video {
   color: hsl(0 36% 70% / var(--tw-text-opacity));
 }
 
-.text-soft-red{
-  --tw-text-opacity: 1;
-  color: hsl(0 93% 68% / var(--tw-text-opacity));
-}
-
 .text-red-500{
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+.text-soft-red{
+  --tw-text-opacity: 1;
+  color: hsl(0 93% 68% / var(--tw-text-opacity));
 }
 
 .form__button {
