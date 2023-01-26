@@ -12,8 +12,9 @@ const validation = () => {
     input.placeholder = "";
     error.classList.toggle("hidden");
     error.innerHTML = "Looks like this is not an email";
-  } else {
+  } else if (error.classList.contains("hidden")) {
     input.innerHTML = "";
+    error.classList.toggle("hidden");
   }
 };
 

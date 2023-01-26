@@ -555,8 +555,20 @@ video {
   margin-top: -124px;
 }
 
-.ml-4{
-  margin-left: 1rem;
+.-mt-\[248px\]{
+  margin-top: -248px;
+}
+
+.-mt-\[150px\]{
+  margin-top: -150px;
+}
+
+.-mt-\[130px\]{
+  margin-top: -130px;
+}
+
+.-mt-\[80px\]{
+  margin-top: -80px;
 }
 
 .box-border{
@@ -670,10 +682,6 @@ video {
 
 .pl-6{
   padding-left: 1.5rem;
-}
-
-.pl-4{
-  padding-left: 1rem;
 }
 
 .text-left{
