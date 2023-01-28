@@ -3,6 +3,7 @@ const button = document.querySelector(".form__button");
 const error = document.querySelector(".error_msg");
 const pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 
+// review form validation
 const validation = () => {
   if (input.value === "") {
     input.placeholder = "";
