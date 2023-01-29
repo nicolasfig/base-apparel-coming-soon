@@ -716,11 +716,6 @@ video {
   color: hsl(0 36% 70% / var(--tw-text-opacity));
 }
 
-.text-red-500{
-  --tw-text-opacity: 1;
-  color: rgb(239 68 68 / var(--tw-text-opacity));
-}
-
 .text-soft-red{
   --tw-text-opacity: 1;
   color: hsl(0 93% 68% / var(--tw-text-opacity));
