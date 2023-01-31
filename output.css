@@ -519,6 +519,18 @@ video {
   order: 2;
 }
 
+.order-1{
+  order: 1;
+}
+
+.-order-2{
+  order: -2;
+}
+
+.-order-1{
+  order: -1;
+}
+
 .mb-20{
   margin-bottom: 5rem;
 }
