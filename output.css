@@ -515,22 +515,6 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.order-2{
-  order: 2;
-}
-
-.order-1{
-  order: 1;
-}
-
-.-order-2{
-  order: -2;
-}
-
-.-order-1{
-  order: -1;
-}
-
 .mb-20{
   margin-bottom: 5rem;
 }
@@ -776,24 +760,24 @@ video {
     display: none;
   }
 
-  .desktop\:h-\[800px\]{
-    height: 800px;
-  }
-
   .desktop\:h-screen{
     height: 100vh;
+  }
+
+  .desktop\:h-\[800px\]{
+    height: 800px;
   }
 
   .desktop\:w-full{
     width: 100%;
   }
 
-  .desktop\:w-\[610px\]{
-    width: 610px;
-  }
-
   .desktop\:w-\[830px\]{
     width: 830px;
+  }
+
+  .desktop\:w-\[610px\]{
+    width: 610px;
   }
 
   .desktop\:w-\[445px\]{
