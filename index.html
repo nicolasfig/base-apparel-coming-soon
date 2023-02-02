@@ -21,55 +21,55 @@
     <main
       class="flex flex-col items-center desktop:flex-row mb-20 desktop:w-full"
     >
-      <div
+      <!-- <div
         class="desktop-block desktop:w-[830px] desktop:h-screen desktop:flex desktop:flex-col desktop:items-center desktop:justify-evenly"
+      > -->
+      <section
+        class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat desktop:flex desktop:order-1 desktop:bg-hero-desktop desktop:w-[610px] desktop:h-[800px]"
+      ></section>
+      <!-- TODO arrange everything again  -->
+      <section
+        class="header h-[84px] flex items-center justify-items-start desktop:w-[445px]"
       >
-        <section
-          class="hero bg-hero-mobile w-[375px] h-[250px] bg-no-repeat desktop:flex desktop:order-1 desktop:bg-hero-desktop desktop:w-[610px] desktop:h-[800px]"
-        ></section>
-        <!-- TODO arrange everything again  -->
-        <section
-          class="header h-[84px] flex items-center justify-items-start desktop:w-[445px]"
+        <img
+          src="./images/logo.svg"
+          alt=""
+          class="header__image ml-8 desktop:ml-0"
+        />
+      </section>
+      <section
+        class="info w-[310px] text-center mt-16 desktop:mt-0 mb-10 desktop:w-[445px] desktop:text-left"
+      >
+        <h1
+          class="info__title mb-7 font-semibold text-5xl desktop:text-7xl text-dark-grayish-red uppercase break-words tracking-widest"
         >
-          <img
-            src="./images/logo.svg"
-            alt=""
-            class="header__image ml-8 desktop:ml-0"
-          />
-        </section>
-        <section
-          class="info w-[310px] text-center mt-16 desktop:mt-0 mb-10 desktop:w-[445px] desktop:text-left"
+          <span class="font-light text-desaturated-red">We're</span>
+          coming soon
+        </h1>
+        <p
+          class="info__description text-base text-desaturated-red font-regular"
         >
-          <h1
-            class="info__title mb-7 font-semibold text-5xl desktop:text-7xl text-dark-grayish-red uppercase break-words tracking-widest"
-          >
-            <span class="font-light text-desaturated-red">We're</span>
-            coming soon
-          </h1>
-          <p
-            class="info__description text-base text-desaturated-red font-regular"
-          >
-            Hello fellow shoppers! We're currently building our new fashion
-            store. Add your email below to stay up-to-date with announcements
-            and our launch deals
-          </p>
-        </section>
-        <section class="form flex desktop:-mt-[100px]">
-          <input
-            type="email"
-            placeholder="Email Address"
-            class="form__input w-[310px] desktop:w-[445px] h-12 border border-desaturated-red rounded-full box-border ml-[-1px] pt-4 pr-6 pb-4 pl-6 placeholder:text-desaturated-red"
-          />
-          <div
-            class="form__button flex items-center justify-center w-16 h-12 border-0 rounded-full ml-[-64px]"
-          >
-            <img src="./images/icon-arrow.svg" alt="" />
-          </div>
-        </section>
-        <div class="error w-[445px] -mt-[80px] pl-6">
-          <p class="error_msg hidden text-soft-red text-left">hola</p>
+          Hello fellow shoppers! We're currently building our new fashion store.
+          Add your email below to stay up-to-date with announcements and our
+          launch deals
+        </p>
+      </section>
+      <section class="form flex desktop:-mt-[100px]">
+        <input
+          type="email"
+          placeholder="Email Address"
+          class="form__input w-[310px] desktop:w-[445px] h-12 border border-desaturated-red rounded-full box-border ml-[-1px] pt-4 pr-6 pb-4 pl-6 placeholder:text-desaturated-red"
+        />
+        <div
+          class="form__button flex items-center justify-center w-16 h-12 border-0 rounded-full ml-[-64px]"
+        >
+          <img src="./images/icon-arrow.svg" alt="" />
         </div>
+      </section>
+      <div class="error w-[445px] -mt-[80px] pl-6">
+        <p class="error_msg hidden text-soft-red text-left">hola</p>
       </div>
+      <!-- </div> -->
     </main>
     <footer class="text-center desktop:hidden">
       <p class="attribution text-dark-grayish-red">
