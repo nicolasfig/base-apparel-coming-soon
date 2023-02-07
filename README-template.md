@@ -89,3 +89,4 @@ Use this section to outline areas that you want to continue focusing on in futur
 ## Acknowledgments
 
 - [Dave Gray tailwind course](https://www.youtube.com/watch?v=lCxcTsOHrjo) - This course helped me a lot with the setup steps
+It was a difficult project 
